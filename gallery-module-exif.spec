@@ -20,7 +20,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_appdir		%{_datadir}/gallery/modules/%{_module}
 
 %description
-Makes block available to themes for display of EXIF/IPTC metadata from image files. Configure fields to display in site admin. Site admin can also configure whether EXIF description or IPTC keywords are imported into Gallery fields for newly added items.
+Makes block available to themes for display of EXIF/IPTC metadata from
+image files. Configure fields to display in site admin. Site admin can
+also configure whether EXIF description or IPTC keywords are imported
+into Gallery fields for newly added items.
+
+%description -l pl
+Ten modu³ udostêpnia motywom blok do wy¶wietlania metadanych EXIF/IPTC
+z plików zdjêæ. Wy¶wietlane pola mo¿na konfigurowaæ w panelu
+administracyjnym. Tam te¿ mo¿na ustawiæ, czy opis EXIF lub s³owa
+kluczowe IPTC maj± byæ importowane do pól galerii dla nowo dodawanych
+elementów.
 
 %prep
 %setup -q -n modules
