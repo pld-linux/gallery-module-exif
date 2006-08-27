@@ -12,7 +12,6 @@ URL:		http://codex.gallery2.org/index.php/Gallery2:Modules:exif
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	gallery >= 2.1.0
 Requires:	php-exif
-Requires:	webapps
 Provides:	external-gallery-module
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
