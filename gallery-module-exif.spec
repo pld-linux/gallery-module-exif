@@ -1,6 +1,6 @@
 %define		_module		exif
 Summary:	EXIF/IPTC module for Gallery
-Summary(pl):	Modu³ do odczytu EXIF/IPTC dla Gallery
+Summary(pl.UTF-8):   ModuÅ‚ do odczytu EXIF/IPTC dla Gallery
 Name:		gallery-module-%{_module}
 Version:	1.0.6
 Release:	0.2
@@ -24,12 +24,12 @@ image files. Configure fields to display in site admin. Site admin can
 also configure whether EXIF description or IPTC keywords are imported
 into Gallery fields for newly added items.
 
-%description -l pl
-Ten modu³ udostêpnia motywom blok do wy¶wietlania metadanych EXIF/IPTC
-z plików zdjêæ. Wy¶wietlane pola mo¿na konfigurowaæ w panelu
-administracyjnym. Tam te¿ mo¿na ustawiæ, czy opis EXIF lub s³owa
-kluczowe IPTC maj± byæ importowane do pól galerii dla nowo dodawanych
-elementów.
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia motywom blok do wyÅ›wietlania metadanych EXIF/IPTC
+z plikÃ³w zdjÄ™Ä‡. WyÅ›wietlane pola moÅ¼na konfigurowaÄ‡ w panelu
+administracyjnym. Tam teÅ¼ moÅ¼na ustawiÄ‡, czy opis EXIF lub sÅ‚owa
+kluczowe IPTC majÄ… byÄ‡ importowane do pÃ³l galerii dla nowo dodawanych
+elementÃ³w.
 
 %prep
 %setup -q -n modules
