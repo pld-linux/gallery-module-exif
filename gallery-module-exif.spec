@@ -1,6 +1,6 @@
 %define		_module		exif
 Summary:	EXIF/IPTC module for Gallery
-Summary(pl.UTF-8):   Moduł do odczytu EXIF/IPTC dla Gallery
+Summary(pl.UTF-8):	Moduł do odczytu EXIF/IPTC dla Gallery
 Name:		gallery-module-%{_module}
 Version:	1.0.6
 Release:	0.2
