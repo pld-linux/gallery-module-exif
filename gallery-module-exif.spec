@@ -2,12 +2,12 @@
 Summary:	EXIF/IPTC module for Gallery
 Summary(pl.UTF-8):	Moduł do odczytu EXIF/IPTC dla Gallery
 Name:		gallery-module-%{_module}
-Version:	1.0.6
-Release:	0.2
+Version:	1.1.0
+Release:	0.1
 License:	GPL
 Group:		Applications/Publishing
 Source0:	http://dl.sourceforge.net/gallery/g2-module-%{_module}-%{version}.tar.gz
-# Source0-md5:	94c70c26238b9812c7df7083159c53b8
+# Source0-md5:	8ca34069e8b34499ef109bd14224f27b
 URL:		http://codex.gallery2.org/index.php/Gallery2:Modules:exif
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	gallery >= 2.1.0
